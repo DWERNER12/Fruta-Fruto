@@ -33,6 +33,7 @@
     .cabecalho {
         justify-content: center;
         padding: 0 1rem;
+        width: auto;
     }
     .cabecalho__img {
         display: none;
