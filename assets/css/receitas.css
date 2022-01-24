@@ -1,6 +1,7 @@
 .receitas {
   background: #e5e5e5;
   display: flex;
+  flex-wrap: wrap;
   padding: 5rem 0 0 5rem;
 }
 .receita {
@@ -34,7 +35,7 @@
 
 @media screen and (max-width: 768px) {
     .receitas{
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .receita {
         margin-right: 5rem;
