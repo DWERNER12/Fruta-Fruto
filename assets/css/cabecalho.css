@@ -29,6 +29,18 @@
     text-decoration: underline;
 }
 
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        justify-content: center;
+        padding: 0 1rem;
+    }
+    .cabecalho__img {
+        display: none;
+    } 
+}
+
+
+/*
 @media screen and (min-width: 0) {
     .cabecalho {
         justify-content: center;
@@ -47,3 +59,4 @@
         display: block;
     }
 }
+*/
